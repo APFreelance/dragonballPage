@@ -1,0 +1,591 @@
+/*
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;*/
+
+html{
+    scroll-behavior: smooth; /*para que se desplaze suavemente entre anclas*/
+}
+
+body{
+    margin: 0px;
+
+    background-image: url(../img/angeles.jpg);
+    background-size: 100% 960px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#menu{
+    position: fixed;
+    z-index: 10;
+
+    background-color: rgb(21,61,110);
+    border-bottom: 5px rgb(3,95,129) solid;
+
+    margin: auto;
+    width: 100%;
+    height: 95px;
+    margin-bottom: 25px;
+}
+
+#menu ul{
+
+    width: ;
+    height: 95px;
+    background-color: ; 
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px 124px;
+
+}
+
+#menu ul li{
+
+    /*display: inline-block;*/
+    float: left;
+
+    margin: 10px 6px;
+
+    /*filter: drop-shadow(-15px 6px 15px black);*/
+
+    transition: all 0.2s;
+}
+
+#menu ul li:hover{
+    /*transform: scale(0.9);*/
+}
+
+.b1{
+    background-image: url(../img/button_1.png);
+    background-size: 100% 100%;
+}
+.b2{
+    /*border-left: 2px rgba(255,255,255, 0.3) solid;*/ 
+    background-image: url(../img/button_2.png);
+    background-size: 100% 100%;
+}
+.b3{
+    background-image: url(../img/button_3.png);
+    background-size: 100% 100%;
+}
+.b4{
+    /*border-left: 2px rgba(255,255,255, 0.3) solid; */
+    background-image: url(../img/button_4.png);
+    background-size: 100% 100%;
+}
+
+#menu ul li a{
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: Merriweather;
+    font-size: 1.3em;
+    /*text-shadow: 2px 2px 0 #AAA;*/
+
+    width: 200px;
+    height: 45px;
+
+    color: black;
+    padding: 15px 20px;
+
+    transition: all 0.4s;
+}
+
+#menu ul li a:hover{
+    opacity: ;
+    color: orange;
+}
+
+#menu ul li img{
+
+    height: 70px;
+    width: 70px;
+    display: block;
+    padding-top: 5px;
+    padding-left: 6px; 
+    
+    filter: drop-shadow(0px 6px 10px black);
+    transition: all 0.4s;
+}
+#menu ul li img:hover{
+    transform: scale(0.9);
+}
+
+/*-----------------------------------------------------------------*/
+
+header{
+
+    position: relative;
+    /*border: 2px black solid;*/
+    
+    margin: auto;
+    margin-bottom: 90px;
+    padding-top: 145px;
+    width: 960px;
+    height: 350px;
+    
+}
+
+header img{
+    display: block;
+    position: absolute;
+}
+
+header #shenglong{
+
+    filter: drop-shadow(-20px 36px 35px black); /*SOMBRA PARA UNA IMAGEN O UN OBJETO DETERMINADO (distancia x,distancia y, dureza, color)!!*/
+
+    width: 560px;
+    height: 230px;
+
+    bottom: 30px;
+    left: 200px;
+    z-index: 1;
+
+    /*filter: blur(3px);*/
+    transition: all 0.4s;
+}
+
+header #shenglong:hover{
+    transform: translate(-10px, 0px);
+    /*filter: blur(0px);*/
+}
+
+header #saludo{
+
+    width: 280px;
+    height: 280px;
+    bottom: 90px;
+    right:  130px;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+
+#sec1{
+
+    background-color: rgba(21,61,110,0.4);
+    border: 4px rgb(3,95,129) solid;
+    border-radius: 10px;
+
+    margin: auto;
+    margin-bottom: 60px;
+
+    width: 1100px;
+    height: 760px;
+}
+
+#sec1 video{
+    width: 975px;
+    height: 450px;
+    
+    margin: 15px 63px;
+}
+
+#sec1 article{
+    /*border: 1px black solid;*/
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.4);
+    
+    width: 300px;
+    height: 242px;
+    
+    padding: 10px;
+    margin-left: 32px;
+    
+    float: left;
+    
+}
+
+#art1{
+}
+
+#art1 h3{
+    margin: 0px;
+    
+    padding: 5px 0px;
+    
+    color: #90ce21;
+    font-family: Luckiest Guy, cursive;
+    font-size: 1.4em;
+}
+#art1 img{
+    
+    width: 95px;
+    height: 135px;
+    
+    float: left;
+    
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
+
+#art1 p{
+    margin: 0px;
+    margin-bottom: 5px;
+    
+    text-align: left;
+    line-height: 16.5px;
+    
+    color: white;
+    font-family:  Merriweather, serif;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+#art1 a{
+    float: left;
+    margin: 4px 100px;
+    padding: 10px 10px; 
+    background-color: #90ce21;
+    border-radius: 8px;
+    
+    text-decoration: none;
+    color: black;
+    font-family:  Merriweather, serif;
+}
+
+#art2{}
+
+#art2 h3{
+    margin: 0px;
+    
+    padding: 5px 0px;
+    
+    color: #90ce21;
+    font-family: Luckiest Guy, cursive;
+    font-size: 1.4em;
+}
+
+#art2 p{
+    margin: 0px;
+    margin-bottom: 12px;
+    
+    text-align: left;
+    line-height: 16.5px;
+    
+    color: white;
+    font-family:  Merriweather, serif;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+#art2 audio{}
+ 
+#art3 iframe{
+    height: 240px;
+}
+
+/*-----------------------------------------------------------------*/
+/*
+#sec2{
+    position: relative;
+    background-color: rgba(21,61,110,0.6);
+    border: 5px rgb(3,95,129) solid;
+    border-radius: 20px;
+
+    margin: auto;
+    margin-bottom: 25px;
+
+    width: 1100px;
+    height: 710px;
+}
+
+#uno_uno{
+    position: absolute;
+    //background-color: green;
+    width: 500px;
+    height: auto;
+    
+    margin: 30px;
+    padding: 30px;//
+}
+
+#uno_uno h2{
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    padding-bottom: 15px;
+    padding: 15px;
+    
+    width: 450px;
+    height: auto;
+    
+    background-color: ;
+
+    color: #90ce21;
+    font-family: Luckiest Guy, cursive;
+    font-size: 2em;
+}
+
+#uno_uno p{
+    
+    background-color: ;
+    margin: 0px 30px;
+    padding: 15px;
+    
+    width: 450px;
+    height: auto;
+    
+    color: white;
+    font-family: Merriweather, serif;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+#uno_uno img{
+    display: block;
+    position: absolute;
+    
+    top: 0px;
+    left: 0px;
+    
+    width: 1100px;
+    height: 650px;
+    //margin: 25px 0px;//
+
+    transition: all 0.6s;
+    
+}
+
+#uno_uno img:hover{
+    transform: translate(540px, 0px);
+    filter: grayscale(1);
+}*/
+
+#sec2{
+    position: relative;
+    
+    width: 1100px;
+    height: 760px;
+    
+    /*background-color: rgba(21,61,110,0.4);
+    border: 4px rgb(3,95,129) solid;*/
+    border-radius: 10px;
+    background-image: url(../img/bg_sec3.jpg);
+    background-size: 100% 100%;
+    
+    margin: auto;
+    margin-bottom: 60px;
+
+    transition: all 1s;
+}
+
+#sec2 article{
+    position: absolute;
+    
+    width: 450px;
+    
+    padding: 15px;
+    
+    background-color: ;
+    
+    top: 50px;
+    left: 50px;
+}
+
+#sec2 article h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    
+    color: #ef9598;
+    font-size: 1.8em;
+    font-family: Luckiest Guy, cursive;
+}
+
+#sec2 article p{
+    margin: 0;
+    padding-bottom: 15px;
+    
+    color: white;
+    text-align: justify;
+    font-family:  Merriweather, serif;
+    font-size: 1.2em;
+}
+
+#sec2 article img{
+    width: 300px;
+    height: 160px;
+
+    padding: 0px 65px;
+    opacity: 0.8;
+}
+
+/*-----------------------------------------------------------------*/
+
+#sec3{
+    width: 100%;
+    
+    padding: 40px 0px;
+    margin-bottom: 60px;
+    
+    background-image: url(../img/bg_4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    backface-visibility: ;
+}
+
+#sec3 article{
+    width: 1100px;
+    
+    margin: auto;
+    padding: 15px;
+    
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 12px;
+    
+    column-count: 3;  /*dividir un parrafo*/
+    column-gap: 20px; /*separacion entre parrafos divididos*/
+}
+
+#sec3 article img{
+    width: 200px;
+    
+    padding-left: 62px;
+    padding-bottom: 15px;
+
+    filter: drop-shadow(-1px 0px 11px white);
+
+}
+#sec3 article p{
+    
+    margin: 0px;
+    
+    color: white;
+    font-family:  Merriweather, serif;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+
+#sec4{
+    
+    margin: auto;
+    
+    width: 1130px;
+    height: 1130px;
+}
+
+#sec4 figure{
+    background-color: rgba(21,61,110,0.4);
+    border: 2px rgb(3,95,129) solid;
+    border-radius: 20px;
+    
+    width: 350px;
+    height: 350px;
+    
+    position: relative;
+    
+    float: left;
+    
+    margin: 11.3px;
+    
+    overflow: hidden; /*es como si creara una mascara de capa, esconde todo lo que esta afuera de la delaracion (padre) al que es aplicado*/
+}
+#sec4 figure img{
+    width: 100%;
+    
+    position: absolute;
+    
+    filter: drop-shadow(0px 0px 15px white)
+}
+#sec4 figure figcaption{
+    height: 100%;
+    
+    background-color: rgba(21,61,110,0.8);
+    position: absolute;
+    
+    top: 350px;
+    
+    transition: all 0.8s;
+}
+
+/*el simbolo ">" sirve para HEREDAR funciones a un atributo de 1er nivel*/
+#sec4 figure:hover > figcaption{ 
+    top: 0px;
+}
+
+#sec4 figure figcaption h5{
+    margin: 360px 0px;
+    
+    text-align: center;
+    font-size: 2em;
+    font-family:  Luckliest Guy, cursive;
+    color: #b2ecec;
+
+    transition: all 0.8s;
+
+}
+
+#sec4 figure figcaption:hover > h5{
+
+    transform: rotate(360deg);
+    margin: 10px 0px;
+}
+
+#sec4 figure figcaption p{
+    margin: 0px 10px;
+    
+    color: white;
+    text-align: justify;
+    font-family:  Merriweather, serif;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+footer{
+    background-color: rgb(21,61,110);
+    border-top: 5px rgb(3,95,129) solid;
+
+    color: white;
+    font-family: Courgette, cursive;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 60px;
+}
+
+/*-----------------------------REDES SOCIALES------------------------------------*/
+
+aside{
+    background-color: rgba(21, 61, 110, 0.51);
+    
+    width: 45px;
+    height: auto;
+    
+    padding: 5px;
+    
+    position: fixed;
+    top: 30%;
+}
+
+aside a{}
+
+aside a img{
+    width: 45px;
+    height: 45px;
+    
+    transition: all 0.2s;
+}
+
+aside a img:hover{
+    transform: scale(1.1);
+}
+
+.invisible{
+    width: 100%;
+    height: 110px;
+}
